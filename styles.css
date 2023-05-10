@@ -27,6 +27,7 @@ header {
     align-items: center;
     background-color: white;
     font-size: 1.2em;
+    box-shadow:2px 2px 4px #101110;
 }
 
 @media (max-width: 800px) {
