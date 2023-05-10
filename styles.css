@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    position: relative;
+}
+
+body {
+    display: block;
+    background-color: white;
+    font-family: 'Garamond', sans-serif;
+    font-size: 1.2em;
+    line-height: 2rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 100px;
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    font-size: 1.2em;
+}
+
+@media (max-width: 800px) {
+    header {
+        flex-wrap: wrap;
+    }
+}
+
+.logo {
+    width: 60vw;
+}
+
+.logo>#header-img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0px;
+}
+
+nav>ul {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+@media (max-width: 300px) {
+    nav>ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    height: 200px;
+}
+
+.hero.h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.hero input[type="submit"] {
+    font-size: 1rem;
+    padding: 2px 3px;
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: .25rem;
+}
+
+.hero input[type="email"] {
+    max-width: 300px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 1em;
+    font-family: 'Garamond', sans-serif;
+}
+
+.hero #submit:hover {
+    background-color: #381D2A;
+    color: white;
+}
+
+@media (max-width: 650px) {
+    #hero {
+        margin-top: 300px;
+    }
+}
+
+.para1 {
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding-bottom: 1em;
+
+}
+
+#hike,
+#bike,
+#kayak {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#kayak-img,
+#hike-img,
+iframe {
+    width: 560px;
+    margin: 20px;
+    padding: 1em;
+}
+
+#hiking-list,
+#biking-list,
+#kayak-list {
+    text-align: left;
+}
+
+#kayak-list>li {
+    padding-bottom: 1em;
+}
+
+
+#location-info {
+    margin-left: 12rem;
+    padding-bottom: 1em;
+}
+
+h4 {
+    display: inline-block;
+    font-size: 1em;
+}
+
+h4:hover {
+    font-size: 1.15em;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #381D2A;
+}
+
+.container hr:last-child {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #381D2A;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="https://i.imgur.com/rSycSuO.png" alt="logo image">
+
+            </div>
+            <div class="nav-bar">
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#hike">Hike</a></li>
+                        <li><a class="nav-link" href="#bike">Bike</a></li>
+                        <li><a class="nav-link" href="#kayak">Kayak</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <div class="container"></div>
+        <section class="hero">
+            <h3>Share new spots, get trail updates, and connect!</h3>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" name="email" type="email" placeholder="youremail@gmail.com"></input>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </section>
+
+
+        <div class="container">
+            <hr>
+            <section id="hike">
+                <h1>Hiking</h1>
+                <img src="https://cdn.pixabay.com/photo/2018/10/14/10/04/new-hampshire-3746081_1280.jpg" id="hike-img">
+                <p class="para1">Check out these easy going trails to get started:</p>
+
+                <ul id="hiking-list">
+
+                    <li>
+                        <h4><a href="https://www.alltrails.com/trail/us/new-hampshire/lake-massabesic-trail">Lake
+                                Massabesic Trail</a></h4> - Auburn, NH <p id="location-info"> 3.7 mile loop trail around
+                            Massabesic lake </p>
+                    </li>
+
+                    <li>
+                        <h4><a href="https://www.trailfinder.info/trails/trail/pulpit-rock-conservation-areal">Pulpit
+                                Rock Conservation Area</a></h4> - Pulpit Rd, Bedford, NH 03110<p id="location-info"> 4.8
+                            miles </p>
+                    </li>
+
+                </ul>
+            </section>
+
+            <hr>
+
+            <section id="bike">
+                <h1>Biking</h1>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/q2nBFGGa7nI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+                <ul id="biking-list">
+                    <li>
+                        <h4><a href="https://www.windhamrailtrail.org/index.html">Windham Rail Trail</a></h4> - 7 Depot
+                        Rd, Windham, NH 03087
+                        <p id="location-info">4.1 mile mostly paved route.<br> Great for walking, biking, and roller
+                            blading.</p>
+                    </li>
+
+                    <li>
+                        <h4><a href="https://www.trailfinder.info/trails/trail/goffstown-rail-trail">Goffstown Rail
+                                Trail</a></h4> - Sarette Field, Pinardville, Manchester, NH 03102<p id="location-info">
+                            5.5 miles one way</p>
+                    </li>
+
+                    <li></li>
+                </ul>
+
+            </section>
+
+            <hr>
+
+            <section id="kayak">
+                <h1>Kayaking</h1>
+                <img src="https://cdn.branchcms.com/voZlvmzLpe-884/images/trails/Bailey-Pond-07-02-16-128.jpg"
+                    id="kayak-img" alt="kayaks">
+                <p class="para1">Check out these great kayaking spots:</p>
+
+                <ul id="kayak-list">
+                    <li>
+                        <h4><a href="https://www.trailfinder.info/trails/trail/bailey-pond">Bailey Pond Conservation
+                                Area</a></h4> - Bailey Pond Road, New Boston, NH
+                    </li>
+                    <li>
+                        <h4><a href="https://goo.gl/maps/m1CGFRrbEfEMbQaR7">Mirror Lake</a></h4> - Mirror Lake Public
+                        Beach, North Woodstock, NH
+                    </li>
+
+                </ul>
+            </section>
+            <hr>
+        </div>
+    </div>
+</body>
+
+</html>
